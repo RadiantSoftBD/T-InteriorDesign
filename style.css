@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.navbar{
+    padding: 50px 0;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    font-size:1.5em ;
+}
+
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    background: #dcdde1;
+    color: #262626;
+}
+.main{
+    position: relative;
+    background: url(
+        http://themebubble.com/demo/webify/interior-design/wp-content/uploads/sites/56/2019/10/Headlines01_360_190830-1-1-1.jpg
+    );
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+}
+
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p{
+    margin-top: 1em ;
+    padding: 0;
+    font-size: 1em;
+    color: #dcdde1;
+}
+.main .btn{
+    background: #718093;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
+
+@media(max-width: 768px){
+    .main{
+        padding: 200px 0 ;
+    }
+    .main h2{
+        font-size: 2em;
+    }
+}
+/* HEADER FINISHED */ 
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px -12px rgba(0, 0, 0, 0.75);
+}
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	padding: 15px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+.warm {
+      background-repeat: repeat-x;
+      background-size: 100%;
+      color: #000;
+    text-decoration: none;
+  }
+  :root {
+    --mainColor: #ffa837;
+  }
+  
+  .warm:hover {
+    background:
+       linear-gradient(
+         to right,
+         var(--mainColor) 0%,
+         var(--mainColor) 5px,
+         transparent
+       );
+  }
+
+  .warm2 h4 {
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 3px 3px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .warm2:hover h4 {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+  .btn-danger {
+    
+    background-color: 
+#ff2c55;
+border-color:
+    #dc3545;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h5{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.spacing{
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px){
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+    background-color: 
+    #202020;
+    margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 1349px){
+    .icons{
+        margin-left: 110px !important;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .icon{
+        margin-left: -10% !important;
+    }
+    #picture{
+        margin-top: 7% !important;
+    }
+    .fo-icons{
+        margin-left: 37% !important;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .icon{
+        margin-left: -35% !important;
+    }
+    #picture{
+        margin-top: 40% !important;
+    }
+    .fo-icons{
+        margin-left: 33% !important;
+    }
+    .picture{
+        margin-left: -18px !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .icon{
+        margin-left: 40% !important;
+    }
+    .fo-icons{
+        margin-left: 38% !important;
+    }
+    .picture{
+        margin-left: 37% !important;
+    }
+    
+}
+
+@media screen and (max-width: 415px){
+    .icon{
+        margin-left: 7% !important;
+    }
+    .fo-icons{
+        margin-left: 33% !important;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .icon{
+        margin-left: 1% !important;
+    }
+    .fo-icons{
+        margin-left: 33% !important;
+    }
+}
+
+
+
+
+
+
+
+.slm {
+    list-style: none;
+    margin: 10px -75px;
+        margin-left: -75px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px;
+    color: 
+rgb(27, 19, 19);
+border-radius: 50%;
+border: 1px solid
+    #fff;
+    transition: .5s;
+    margin-left: 84px;
+}
+
+.slm:hover{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: .5s;
+}
+
+
+
+
+
+  
+
